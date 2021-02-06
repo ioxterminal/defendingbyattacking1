@@ -1,6 +1,7 @@
 # defendingbyattacking1
 
 Apache/2.4.37 (centos)
+PHP 7.2.24
 
 http://localhost:8080/index.php
 Request Method: 
